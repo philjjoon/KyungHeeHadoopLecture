@@ -93,7 +93,7 @@ public class TestTopCount {
 		long start = System.currentTimeMillis();
 		
 		Path interPath = new Path("interResult");
-		JobConf conf = new JobConf(TopCount.class);
+		JobConf conf = new JobConf(TestTopCount.class);
 		conf.setJobName("TopNCount");
 		conf.setOutputKeyClass(Text.class);
 		conf.setOutputValueClass(IntWritable.class);
@@ -114,7 +114,7 @@ public class TestTopCount {
 		JobClient.runJob(conf);
 
 		// Job 2
-		JobConf conf1 = new JobConf(TopCount.class);
+		JobConf conf1 = new JobConf(TestTopCount.class);
 		conf.setJobName("TotalNCount");
 		conf1.setOutputKeyClass(Text.class);
 		conf1.setOutputValueClass(IntWritable.class);
