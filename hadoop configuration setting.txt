@@ -37,3 +37,6 @@ JobTracker
 
 # Upload the input file to HDFS
 bin/hadoop fs -put inputFileName in LOCAL inputFileName in HDFS
+
+# Running the job
+bin/hadoop jar ***.jar project.MainClassName args[0] ... args[N]
