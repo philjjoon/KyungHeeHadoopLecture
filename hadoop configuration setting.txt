@@ -1,0 +1,39 @@
+== Hadoop Setting Configuration  ==
+
+mapread-site.xml
+core-site.xml
+hdfs-site.xml
+
+conf/master
+conf/slaves
+
+in hadoop folder
+bin/hadoop namenode -format
+bin/start-all.sh
+
+jps
+<=
+DataNode                                                                                                            
+Jps                                                                                                                 
+SecondaryNameNode                                                                                                   
+TaskTracker                                                                                                         
+NameNode                                                                                                            
+JobTracker
+
+
+## Making Jar File ##
+
+- Project-> Properties -> Plug-in; java -> Set Main Class
+
+- Build
+
+- Check Bin Folder
+
+- sh jar_build.sh
+
+
+# Upload jar file in hadoop folder
+# Download inputfile from Githun and Upload it to hadoop folder
+
+# Upload the input file to HDFS
+bin/hadoop fs -put inputFileName in LOCAL inputFileName in HDFS
