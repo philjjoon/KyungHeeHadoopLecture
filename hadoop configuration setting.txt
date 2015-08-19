@@ -1,5 +1,5 @@
 == Hadoop Setting Configuration  ==
-
+haejoon lee
 mapread-site.xml
 core-site.xml
 hdfs-site.xml
