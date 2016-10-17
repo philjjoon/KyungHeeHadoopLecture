@@ -8,3 +8,6 @@ Facebook Account, [jjun] (https://www.facebook.com/jjun.lee.71)
 IF you have any question, just let me know.
 
 Hello, scrum master. I am from Germany. I am done with this project
+
+Hey I modified this code before.
+I would like to pull request 
